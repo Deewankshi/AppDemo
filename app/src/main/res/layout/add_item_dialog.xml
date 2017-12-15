@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_element"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#80000000"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Add New Brand"/>
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/layout_bg"
+        android:hint="Enter Title"
+        android:paddingLeft="10dp"
+        android:inputType="textImeMultiLine"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/editDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_bg"
+        android:gravity="top|left"
+        android:hint="Enter desc"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:maxLines="5"
+        android:minLines="3"
+        android:scrollbars="vertical"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:background="@drawable/btnback"
+        android:textColor="#000"
+        android:layout_margin="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>
